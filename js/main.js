@@ -10,7 +10,7 @@ $("#tinderslide").jTinder({
 	// dislike callback
     onDislike: function (item) {
 	    // set the status text
-        $('#status').html('Dislike image ' + (item.index()+1));
+        $('#status').html((item.index()+1)+ " MORE SWIPES.");
 				disliked++;
 				remainingSlides--;
 				console.log("disliked: " + disliked);
@@ -19,7 +19,7 @@ $("#tinderslide").jTinder({
 	// like callback
     onLike: function (item) {
 	    // set the status text
-        $('#status').html('Like image ' + (item.index()+1));
+        $('#status').html((item.index()+1)+ " MORE SWIPES.");
 				liked++;
 				remainingSlides--;
 				console.log("liked: " + liked);

@@ -273,8 +273,9 @@ body {
 /* jTinder status text */
 #status {
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-family: arial;
     margin-top: 30px;
-    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+    color: white;
 }
