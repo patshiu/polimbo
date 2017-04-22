@@ -36,7 +36,7 @@
 }
 
 #quiz {
-  display: none;
+  /*display: none;*/
 }
 
 #results {
@@ -44,7 +44,7 @@
   width: 100%;
   height: 100%;
   background-color: #4745d1;
-  /*display: none;*/
+  display: none;
 }
 .announceResults {
   text-align: center;
@@ -126,11 +126,11 @@
 }
 
 #folksForNN {
-  /*display: none;*/
+  display: none;
 }
 
 #folksAgainstNN {
-  /*display: none;*/
+  display: none;
 }
 
 
