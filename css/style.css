@@ -1,3 +1,9 @@
+body {
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 #header {
   background-color: #2C185B;
   height: 80px;
@@ -37,6 +43,7 @@
 
 #quiz {
   /*display: none;*/
+  background-color: #FF294C;
 }
 
 #results {
@@ -147,7 +154,7 @@
 
 #shareResultsBtn {
   border: 2px solid white;
-  margin: 20px 40px 20px 40px;
+  margin: 20px 40px 15px 40px;
 }
 #shareResultsBtn p{
   color: white;
@@ -223,3 +230,32 @@
 #tinderslide .pane1 .img {
     background: url("../img/pane/01.jpg") no-repeat scroll top center;
 }
+
+
+/*MEDIA QUERIES*/
+/*124.5 + 27px + 79.5 =*/
+
+		/* Larger than tablet */
+		@media (min-width: 700px) {
+      html, body {
+        background-color: #322F3B;
+      }
+      .container {
+        max-width: 375px !important;
+        margin: calc(calc(100vh - 900px) * 0.5)  auto !important;
+        border: 30px solid #111;
+        border-top: 80px solid #111;
+        border-bottom: 100px solid #111;
+        border-radius: 45px;
+      }
+      .wrap {
+        height: 410px !important;
+      }
+      #results {
+        height: 587.5px !important;
+        overflow: scroll;
+      }
+      /*#tinderslide {
+        height: 400px !important;
+      }*/
+    }

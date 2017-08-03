@@ -275,7 +275,8 @@ body {
     text-align: center;
     font-size: 14px;
     font-family: arial;
-    margin-top: 30px;
+    margin-top: 24px;
+    padding: 6px;
     font-family: 'Questrial', sans-serif;
-    color: white;
+    color: #2C185B;
 }
