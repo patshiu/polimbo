@@ -243,7 +243,7 @@ body {
       .container {
         max-width: 375px !important;
         position: relative;
-        top:  calc(calc(100vh - 900px)*0.5);
+        top: calc(100vh - 900px);
         margin: 0 auto !important;
         border: 30px solid #111;
         border-top: 80px solid #111;
